@@ -1,0 +1,18 @@
+h1 {
+  color:white;
+}
+
+p {
+  text-align:center;
+  display:inline;
+  color:white;
+}
+
+div:nth-child(3) {
+  float:right;
+}
+
+body {
+  background-color: black
+}
+
