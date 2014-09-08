@@ -1,0 +1,45 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center
+}
+
+li {
+  color: white;
+}
+
+body {
+  background-color: black
+}
+
+img {
+  width: 40%;
+  max-width: 100%;
+  margin-left: 30%;
+}
+
+a {
+  color:white;
+}
+
+nav a {
+  color:white;
+  margin-right: 1%;
+}
+
+nav {
+  margin-left: 30%;
+  display: block;
+}
+
+section {
+margin-left:30%;
+}
