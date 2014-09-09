@@ -1,0 +1,81 @@
+ .mrfix {
+  position:fixed;
+  float:top;
+  margin-left: 80%;
+  margin-bottom: 80%;
+}
+
+.mrfix p {
+  color:yellow;
+}
+
+.therelative {
+  position:relative;
+}
+
+.therelativeright {
+  position:relative;
+  left:20px;
+}
+
+.therelativeright p {
+  color:red;
+}
+
+.therelativeleft {
+ position:relative;
+ left:-20px;
+}
+
+.therelativeleft p {
+  color:red;
+}
+
+.therelative p {
+  color:red;
+}
+
+.normal {
+  left:60px;
+}
+
+.normal p {
+  color:green;
+}
+
+#absolute1 {
+  position:absolute;
+
+  }
+
+#absolute2 {
+  position:absolute;
+  left:70%;
+}
+
+#absolute1 p {
+  color:orange;
+}
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  color:white;
+}
+
+a {
+  color:green;
+}
+
+p {
+  color:white;
+}
+div:nth-child(3) {
+  float:right;
+}
+
+body {
+  background-color: black
+}
