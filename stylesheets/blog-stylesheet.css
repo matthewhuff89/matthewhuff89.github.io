@@ -18,6 +18,8 @@ p {
 div img {
   float: right;
   display: block;
+  height:40%;
+  width:25%;
 }
 
 body {
