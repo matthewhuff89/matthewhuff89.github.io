@@ -11,16 +11,17 @@ a {
 }
 
 p {
-  text-align:center;
-  display:inline;
   color:white;
 }
-
 div:nth-child(3) {
   float:right;
+  position: relative;
 }
 
 body {
   background-color: black
 }
 
+ul li {
+  color:white;
+}
