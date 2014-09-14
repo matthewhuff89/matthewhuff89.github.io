@@ -13,9 +13,10 @@ a {
 p {
   color:white;
 }
-div:nth-child(3) {
-  float:right;
-  position: relative;
+
+div img {
+  float: right;
+  display: block;
 }
 
 body {
