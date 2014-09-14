@@ -12,6 +12,7 @@ a {
 
 p {
   color:white;
+  font-family:"Oswald";
 }
 
 div img {
@@ -24,5 +25,9 @@ body {
 }
 
 ul li {
+  color:white;
+}
+
+h5 {
   color:white;
 }
