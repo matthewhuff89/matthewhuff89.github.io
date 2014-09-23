@@ -16,7 +16,7 @@ p {
 }
 
 div img {
-  float: right;
+  float: top, right;
   display: block;
   height:40%;
   width:25%;
