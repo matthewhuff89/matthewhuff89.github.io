@@ -1,0 +1,60 @@
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css" />
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+  <title>Matthew D Huff's DBC Blog!</title>
+</head>
+<body>
+
+<div id="headerstuff">
+
+<!--Title goes below-->
+<h1>Asking Good Questions</h1>
+<!--Author goes here-->
+<p>Matthew D. Huff</p>
+<!--Date of post goes here-->
+<p>October 23, 2014</p>
+</div>
+
+<!--Images for post goes here-->
+<div>
+</div>
+
+<!--Introduction to Topic-->
+<section>
+<p>Today I'm going to be talking about asking good questions and what the hell I mean by 'asking a good question'. I'm gonna take a look at some questions I found people ask on Stackoverflow and just take a look at why it is or isn't a well-asked question. Is well-asked a thing? I'm doing it, whatever.</p>
+</section>
+
+<!--First Paragraph-->
+<section>
+  <p>Basically, here's what I think makes a good question. Be SPECIFIC and give it the context related to what you are doing. That's it.</p>
+</section>
+
+<!--Second Paragraph-->
+<section>
+  <p>For example...</p>
+  <p>Bad: How do I shot web?</p>
+  <p>What does the asker even mean by that? What's with that terrible grammar? What are you shooting web at? Why do you need to shoot web?</p>
+  <p>Good: I'm in a fight with a diabolical super-villain. I'm using this web-like substance, and I need to figure out how to launch it at him so that I can stick him to a wall and then beat the crap out of him. Any ideas?</p>
+  <p>So much better! I know why, and what this fellow needs to do, and I could use a little more information, but this is a great start!</p>
+</section>
+
+<!--Third Paragraph-->
+<section>
+  <p></p>
+</section>
+
+<!--Conclusion-->
+<section>
+  <p>In conclusion, just be as specific as you humanly can about your problem and WHY it's a problem in the first place and you'll be fine.</p>
+</section>
+
+<!--Farewell!-->
+<p>Till next time!</p>
+<p>Matthew D. Huff</p>
+
+</body>
+
+
+
+</html>
