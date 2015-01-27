@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Matthew D. Huff is a professional web developer, born and raised in the city of Birmingham, in the state of Alabama. He's a graduate of Dev Bootcamp NYC (which was one of the most incredible experiences of his life, shoutout to the 2014 Raccoons).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+His purpose in life is to master his mind, body, and spirit through technology and practice and ultimately help others do the same.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Whoever you are, wherever you are, go forth and get you some.
+
+LOVE-HUSTLE-EVOLVE

@@ -1,6 +1,6 @@
 # Site settings
 title: Matthew D. Huff's Badass Website
-email: something@somewhere.com
+email: matthewhuff89@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to my webpage! This is just a little portfolio site for me to show to parties interested in my services as a developer! Have a good time!
 baseurl: "" # the subpath of your site, e.g. /blog/
