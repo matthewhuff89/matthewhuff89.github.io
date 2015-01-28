@@ -24,9 +24,6 @@ The above was me playing with Jekyll's highlighter feature. I'm not gonna remove
 
 Check out my [Twitter account][twitter], my [Github][github], and my [LinkedIn account][linkedin]!
 
-(Soon, you'll be able to checkout the Infinite Mindworks, my completely unprofessional, playground/lab/experimentation site. I'll let ya'll know when that's up and running)
-
-
 [twitter]: http://twitter.com/theinfamoushuff
 [github]: http://github.com/matthewhuff89
 [linkedin]: http://www.linkedin.com/in/matthewdhuff
