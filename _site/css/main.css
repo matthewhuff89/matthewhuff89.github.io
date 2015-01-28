@@ -5,9 +5,7 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
-  padding: 0;
-  color: white;
-}
+  padding: 0; }
 
 /**
  * Basic styling
@@ -71,7 +69,7 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
+    color: white;
     text-decoration: underline; }
 
 /**
@@ -160,7 +158,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: white; }
+    color: #424242; }
 
 .site-nav {
   float: right;
@@ -177,7 +175,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #fdfdfd;
+      background-color: black;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
