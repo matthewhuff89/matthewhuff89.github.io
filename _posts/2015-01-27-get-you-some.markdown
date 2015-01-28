@@ -5,7 +5,12 @@ date: 2015-01-27
 categories: posts
 ---
 
-Hellloooooooo internet. This is my professional site. So sit down, relax, have a cup of tea (or whatever it is that you like), and enjoy!
+Hellloooooooo internet. This is my professional site. I'm going to be using this space to write about my experiences and what I'm learning as I grow as a developer.
+
+I'm thinking first up on my learning plate is going to be CSS and Responsive Design...I'll let ya'll know.
+
+
+So sit down, relax, have a cup of tea (or whatever it is that you like), and enjoy!
 
 {% highlight ruby %}
 def get_you_some(name)

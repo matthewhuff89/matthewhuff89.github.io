@@ -6,13 +6,17 @@
 </description>
     <link>http://www.matthewdhuff.com/</link>
     <atom:link href="http://www.matthewdhuff.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Jan 2015 19:36:15 -0500</pubDate>
-    <lastBuildDate>Tue, 27 Jan 2015 19:36:15 -0500</lastBuildDate>
+    <pubDate>Tue, 27 Jan 2015 19:43:09 -0500</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2015 19:43:09 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Welcome to matthewdhuff.com</title>
-        <description>&lt;p&gt;Hellloooooooo internet. This is my professional site. So sit down, relax, have a cup of tea (or whatever it is that you like), and enjoy!&lt;/p&gt;
+        <description>&lt;p&gt;Hellloooooooo internet. This is my professional site. I’m going to be using this space to write about my experiences and what I’m learning as I grow as a developer.&lt;/p&gt;
+
+&lt;p&gt;I’m thinking first up on my learning plate is going to be CSS and Responsive Design…I’ll let ya’ll know.&lt;/p&gt;
+
+&lt;p&gt;So sit down, relax, have a cup of tea (or whatever it is that you like), and enjoy!&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_you_some&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Get you some, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;!!&amp;quot;&lt;/span&gt;
