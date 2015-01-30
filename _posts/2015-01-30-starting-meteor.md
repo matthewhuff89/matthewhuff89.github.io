@@ -7,7 +7,7 @@ categories: posts
 
 So I've decided on my next couple of projects.
 
-1. Me and my teammate Dmitri are going to restart development on our online card game, Timewangler (that name's probably going to change.) We're likely going to be porting that to the MEAN stack, that's still up in the air though.
+1. Me and my teammate Dmitri are going to look at making a new game.
 
 2. Me personally? I'm going to be working on learning everything I can about the Javascript-based framework [Meteor][meteor]. Once I've got a good foundation, I'm going to rebuild a Sinatra app I made to help me with my dream journaling...using Meteor this time. I figure this will be a great way for me to learn a whole bunch of new technologies and work on my JavaScript at the same time!
 
