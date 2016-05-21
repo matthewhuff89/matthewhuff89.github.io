@@ -175,7 +175,7 @@ const ARTISTS = [
   {
     "firstName": "Stephanie Mead,",
     "lastName": "Erich Winzer",
-    "address": "241 Taffe Place #602, Brooklyn NY",
+    "address": "241 Taaffe Place #602, Brooklyn NY",
     "longitude": -73.9592938,
     "latitude": 40.6906575,
     "artFormat": "Painting,Mixed Media",
@@ -208,9 +208,9 @@ const ARTISTS = [
     "artFormat": "Painting"
   },
   {
-    "firstName": "Erich",
-    "lastName": "Winzer",
-    "address": "241 Taffee Pl. #601",
+    "firstName": "Erich Winzer,",
+    "lastName": "Stephanie Mead",
+    "address": "241 Taaffe Pl. #601",
     "longitude": -73.9592938,
     "latitude": 40.6906575,
     "artFormat": "Painting",
@@ -334,7 +334,7 @@ const ARTISTS = [
   },
   {
     "firstName": "Eileen Murphy, Sascha Mallon,",
-    "lastName": "Francks F., Kevin Connolly",
+    "lastName": "Francks F. Décéus, Kevin Connolly Gillespie",
     "address": "122 Washington Ave, 3rd floor, Brooklyn NY",
     "longitude": -73.9673629,
     "latitude": 40.6949828,
