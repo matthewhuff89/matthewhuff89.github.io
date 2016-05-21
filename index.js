@@ -1,0 +1,494 @@
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 40.6819195, lng: -73.9569946},
+    zoom: 15
+  });
+
+  ARTISTS.forEach(function(artist){
+
+    var infowindow = new google.maps.InfoWindow({
+      content: "<p style='font-weight: bold'>" + artist.firstName + " " + artist.lastName + "</p>\n" + artist.address
+    });
+
+    var marker = new google.maps.Marker({
+        position: {lat: artist.latitude, lng: artist.longitude},
+        map: map,
+        title: artist.firstName + " " + artist.lastName
+    });
+
+    marker.addListener('click', function() {
+      infowindow.open(map, marker);
+    });
+  });
+}
+
+
+
+const ARTISTS = [
+  {
+    "firstName":"Yuriy",
+    "lastName": "Dikov",
+    "address": "Corkscrew Wines, 489 Myrtle Ave, Brooklyn, NY",
+    "longitude": -73.965541,
+    "latitude": 40.693651,
+    "artFormat": "Photography, Digital Arts",
+    "crossStreet": "Hall Street"
+  },
+  {
+    "firstName":"Hubert",
+    "lastName": "Dobler",
+    "address": "4.31 - Mobile Studio, Clinton Ave & Dekalb Ave, Brooklyn NY",
+    "longitude": -73.968082,
+    "latitude": 40.689441,
+    "artFormat": "Video Installation",
+    "crossStreet": "Corner of Clinton and Dekalb"
+  },
+  {
+    "firstName": "Christophe",
+    "lastName": "Roberts",
+    "address": "36 Waverly Ave, Brooklyn, NY",
+    "longitude": -73.9688704,
+    "latitude": 40.6968804
+  },
+  {
+    "firstName": "William",
+    "lastName": "Hereford",
+    "address": "35 Claver Place, Brooklyn, NY",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Woody",
+    "address": "35 Claver Place, Brooklyn, NY ",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195
+  },
+  {
+    "firstName": "The Owl",
+    "lastName": "And Pussycat Salon",
+    "address": "154 Vanderbilt Ave, Brooklyn, NY 11205",
+    "longitude": -73.9699641,
+    "latitude": 40.6928475,
+    "artFormat": "Window Painting",
+    "crossStreet": "Myrtle Ave"
+  },
+  {
+    "firstName": "Lucio",
+    "lastName": "Zago",
+    "address": "541 Myrtle Ave, Brooklyn, NY",
+    "longitude": -73.962887,
+    "latitude": 40.69403,
+    "artFormat": "Drawing",
+    "crossStreet": "Steuben St"
+  },
+  {
+    "firstName": "Eva",
+    "lastName": "Lansberry",
+    "address": "258 Clinton Avenue #3R, Brooklyn, NY",
+    "longitude": -73.968649,
+    "latitude": 40.690526,
+    "artFormat": "Drawing,Mixed Media,Sculpture",
+    "crossStreet": "Willoughby"
+  },
+  {
+    "firstName": "Laura Barnett & Alfred Evans\n",
+    "address": "Sands St. & Gold St. Brooklyn NY",
+    "longitude": -73.9829362,
+    "latitude": 40.6997255,
+    "artFormat": "Installation Art"
+  },
+  {
+    "firstName": "Ken",
+    "lastName": "Shillingford",
+    "address": "154 1/2 Washington Avenue, Brooklyn, NY",
+    "longitude": -73.9672094,
+    "latitude": 40.6940169,
+    "artFormat": "Photography",
+    "crossStreet": "Myrtle Avenue"
+  },
+  {
+    "firstName": "Tatiana",
+    "lastName": "Arocha",
+    "address": "Bldg 92 Courtyard, 63 Flushing Ave Brooklyn, NY",
+    "longitude": -73.974981,
+    "latitude": 40.698015,
+    "artFormat": "Installation Art",
+    "crossStreet": "Carlton"
+  },
+  {
+    "firstName": "Doug",
+    "lastName": "Beube",
+    "address": "69 Fort Greene Place, Brooklyn NY",
+    "longitude": -73.976427,
+    "latitude": 40.687912,
+    "artFormat": "Photography, mixed media, sculpture",
+    "crossStreet": "Fulton"
+  },
+  {
+    "firstName": "Ramona",
+    "lastName": "Candy",
+    "address": "197 Washington Park, Brooklyn NY",
+    "longitude": -73.9729909,
+    "latitude": 40.690504,
+    "artFormat": "Painting,Mixed Media",
+    "crossStreet": "Dekalb Avenue"
+  },
+  {
+    "firstName": "Vicki",
+    "lastName": "Angel",
+    "address": "36 Waverly Ave, Brooklyn NY 305",
+    "longitude": -73.9688704,
+    "latitude": 40.6968804,
+    "artFormat": "Painting",
+    "crossStreet": "Park Ave"
+  },
+  {
+    "firstName": "Young Sun",
+    "lastName": "Han",
+    "address": "36 Waverly Ave, Unit 322, Brooklyn NY",
+    "longitude": -73.9688704,
+    "latitude": 40.6968804,
+    "artFormat": "Photography,Mixed Media,Performance",
+    "crossStreet": "Park Ave"
+  },
+  {
+    "firstName": "Matthew",
+    "lastName": "Kirby",
+    "address": "372 Clinton Avenue (Brooklyn Free School)",
+    "longitude": -73.96802579999999,
+    "latitude": 40.6870934,
+    "artFormat": "Painting,Drawing",
+    "crossStreet": "Between Lafayette and Greene"
+  },
+  {
+    "firstName": "Kathleen",
+    "lastName": "Migliore-Newton",
+    "address": "362 Adelphi Street, Brooklyn NY",
+    "longitude": -73.97089799999999,
+    "latitude": 40.68679,
+    "artFormat": "Painting,Drawing",
+    "crossStreet": "Greene Street & Lafayette"
+  },
+  {
+    "firstName": "Stephanie Mead,",
+    "lastName": "Erich Winzer",
+    "address": "241 Taffe Place #602, Brooklyn NY",
+    "longitude": -73.9592938,
+    "latitude": 40.6906575,
+    "artFormat": "Painting,Mixed Media",
+    "crossStreet": "Dekalb Ave."
+  },
+  {
+    "firstName": "Kevin Connolly",
+    "lastName": "Gillespie",
+    "address": "122 Washington Ave 3rd floor Brooklyn NY",
+    "longitude": -73.9673629,
+    "latitude": 40.6949828,
+    "artFormat": "Painting,Drawing,Mixed Media",
+    "crossStreet": "Park Ave"
+  },
+  {
+    "firstName": "Diana",
+    "lastName": "Leidel",
+    "address": "432 Myrtle Ave, Brooklyn NY (Green in BKLYN)",
+    "longitude": -73.9681883,
+    "latitude": 40.6929716,
+    "artFormat": "Drawing,Photography,Multi Media,Digital Arts",
+    "crossStreet": "Clinton"
+  },
+  {
+    "firstName": "Deborah",
+    "lastName": "Kammer",
+    "address": "35 Claver Place, Brooklyn NY",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195,
+    "artFormat": "Painting"
+  },
+  {
+    "firstName": "Erich",
+    "lastName": "Winzer",
+    "address": "241 Taffee Pl. #601",
+    "longitude": -73.9592938,
+    "latitude": 40.6906575,
+    "artFormat": "Painting",
+    "crossStreet": "Dekalb"
+  },
+  {
+    "firstName": "Isak",
+    "lastName": "Berbic",
+    "address": "35 Claver Place #7",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195,
+    "artFormat": "Photography,Multi Media,Performance",
+    "crossStreet": "Fulton"
+  },
+  {
+    "firstName": "Laura",
+    "lastName": "Pawson",
+    "address": "Tipsy, 584 Myrtle Avenue, Brooklyn NY",
+    "longitude": -73.9613088,
+    "latitude": 40.6938364,
+    "artFormat": "Painting,Drawing,Mixed Media",
+    "crossStreet": "Classon"
+  },
+  {
+    "firstName": "Sascha",
+    "lastName": "Mallon",
+    "address": "122 Washington Avenue, Brooklyn NY",
+    "longitude": -73.9673629,
+    "latitude": 40.6949828,
+    "artFormat": "Drawing,Sculpture"
+  },
+  {
+    "firstName": "Teresa",
+    "lastName": "Herrmann",
+    "address": "35 Claver Pl., #11, Brooklyn NY",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195,
+    "artFormat": "Mixed Media",
+    "crossStreet": "Jefferson"
+  },
+  {
+    "firstName": "Ragnar",
+    "lastName": "Naess",
+    "address": "107 Hall St., Brooklyn NY",
+    "longitude": -73.96583000000001,
+    "latitude": 40.69453499999999,
+    "artFormat": "Mixed Media,Sculpture",
+    "crossStreet": "Myrtle Ave."
+  },
+  {
+    "firstName": "John",
+    "lastName": "bjerklie",
+    "address": "35 Claver Place, Brooklyn NY",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195,
+    "artFormat": "Painting, Sculpture, Multi Media",
+    "crossStreet": "fulton"
+  },
+  {
+    "firstName": "Poogy",
+    "lastName": "bjerklie",
+    "address": "35 Claver Place, Brooklyn NY",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195,
+    "artFormat": "Painting",
+    "crossStreet": "fulton"
+  },
+  {
+    "firstName": "Jim",
+    "lastName": "Porter",
+    "address": "168 Hall St., Brooklyn NY",
+    "longitude": -73.9661,
+    "latitude": 40.692842,
+    "artFormat": "Painting,Mixed Media,Sculpture",
+    "crossStreet": "Between Myrtle and Willoughby Aves."
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Davis",
+    "address": "420 Clinton Avenue apt 6A, Brooklyn NY",
+    "longitude": -73.96755619999999,
+    "latitude": 40.6855865,
+    "artFormat": "Painting,Drawing,Mixed Media,Sculpture",
+    "crossStreet": "Greene Ave"
+  },
+  {
+    "firstName": "Beka",
+    "lastName": "Goedde",
+    "address": "35 Claver Pl #8, Brooklyn NY",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195,
+    "artFormat": "Drawing,Sculpture",
+    "crossStreet": "Fulton St."
+  },
+  {
+    "firstName": "Francks F.",
+    "lastName": "Décéus",
+    "address": "122 Washington Ave 2nd floor, Brooklyn NY",
+    "longitude": -73.9673629,
+    "latitude": 40.6949828,
+    "artFormat": "Painting,Drawing,Photography",
+    "crossStreet": "Myrtle Ave"
+  },
+  {
+    "firstName": "Kennis",
+    "lastName": "Baptiste",
+    "address": "35 Claver place, Brooklyn NY",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195,
+    "artFormat": "Painting,Drawing,Mixed Media",
+    "crossStreet": "Fulton Street"
+  },
+  {
+    "firstName": "Christophe Roberts, Young Sun Han, Esther Kirshenbaum,",
+    "lastName": "Vicki Angel",
+    "address": "36 Waverly Ave., Brooklyn NY",
+    "longitude": -73.96887,
+    "latitude": 40.69688,
+    "artFormat": "Mixed Media",
+    "crossStreet": "Between Flushing and Park (kindly get it right this year :)"
+  },
+  {
+    "firstName": "Eileen Murphy, Sascha Mallon,",
+    "lastName": "Francks F., Kevin Connolly",
+    "address": "122 Washington Ave, 3rd floor, Brooklyn NY",
+    "longitude": -73.9673629,
+    "latitude": 40.6949828,
+    "artFormat": "Painting,Drawing",
+    "crossStreet": "Myrtle Ave"
+  },
+  {
+    "firstName": "Douglas Newton &",
+    "lastName": "Kathleen Migliore-Newton",
+    "address": "362 Adelphi Street, Brooklyn NY",
+    "longitude": -73.97089799999999,
+    "latitude": 40.68679,
+    "artFormat": "Painting,Drawing",
+    "crossStreet": "Lafayette Avenue"
+  },
+  {
+    "firstName": "Brooks",
+    "lastName": "Frederick",
+    "address": "226 Willoughby Ave, Brooklyn NY",
+    "longitude": -73.9623922,
+    "latitude": 40.6920997,
+    "artFormat": "Painting,Drawing,Multi Media,Performance",
+    "crossStreet": "Emerson"
+  },
+  {
+    "firstName": "C",
+    "lastName": "Bangs",
+    "address": "417 Greene Avenue, Brooklyn NY",
+    "longitude": -73.954168,
+    "latitude": 40.688273,
+    "artFormat": "Painting,Mixed Media,Digital Arts",
+    "crossStreet": "Bedford & Nostrand"
+  },
+  {
+    "firstName": "Justin Huxol, Beka Goedde, Teresa Herrmann, John Bjerklie, Poogy Bjerklie,",
+    "lastName": "Kennis Baptiste, William Hereford, Michael Woody, Deborah Kammer, Isak Berbic",
+    "address": "35 Claver Place, Brooklyn NY",
+    "longitude": -73.9569946,
+    "latitude": 40.6819195,
+    "artFormat": "Mixed Media,Sculpture",
+    "crossStreet": "Fulton"
+  },
+  {
+    "firstName": "Nina",
+    "lastName": "Allen",
+    "address": "Coffee 11238, 995A Fulton St, Brooklyn NY",
+    "longitude": -73.9630466,
+    "latitude": 40.6828294,
+    "artFormat": "Painting",
+    "crossStreet": "Cambridge Place"
+  },
+  {
+    "firstName": "Brittan",
+    "lastName": "Blasdel",
+    "address": "321 Greene Avenue, 2A Brooklyn NY",
+    "longitude": -73.9585582,
+    "latitude": 40.6875631,
+    "artFormat": "Mixed Media",
+    "crossStreet": "Classon"
+  },
+  {
+    "firstName": "Melanie",
+    "lastName": "Kozol",
+    "address": "461 Vanderbilt Avenue, Brooklyn NY",
+    "longitude": -73.967848,
+    "latitude": 40.684538,
+    "artFormat": "Painting",
+    "crossStreet": "Gates/Greene"
+  },
+  {
+    "firstName": "Crystal",
+    "lastName": "Clarity",
+    "address": "Greene Grape Annex, 753 Fulton Street, Brooklyn NY",
+    "longitude":-73.974609 ,
+    "latitude": 40.686579,
+    "artFormat":"Window Painting"
+  },
+  {
+    "firstName": "Zhenwei",
+    "lastName": "Xie",
+    "address": "680 Fulton Street",
+    "longitude": -73.974755,
+    "latitude": 40.68622,
+    "artFormat": "Window Painting"
+  },
+  {
+    "firstName": "Julia" ,
+    "lastName": "Cocuzza",
+    "address": "Greene Grape Provisions, 767 Fulton Street, Brooklyn NY",
+    "longitude":-73.973958,
+    "latitude": 40.686291,
+    "artFormat":"Window Painting",
+  },
+  {
+    "firstName":"Jose" ,
+    "lastName": "Baez" ,
+    "address": "Greene Grape Wine and Spirits, 765 Fulton Street, Brooklyn NY",
+    "longitude":-73.974026,
+    "latitude": 40.686313,
+    "artFormat":"Window Painting",
+  },
+  {
+    "firstName":"Chris Soria and" ,
+    "lastName":"Danielle McDonald" ,
+    "address": "DSK, 710 Fulton Street, Brooklyn Ny" ,
+    "longitude":-73.973535,
+    "latitude":40.685767,
+    "artFormat":"Window Painting",
+  },
+  {
+    "firstName": "Misha",
+    "lastName": "Tyutyunik",
+    "address":"Black Forest Brooklyn, 733 Fulton Street, Brooklyn NY" ,
+    "longitude":-73.9751,
+    "latitude":40.686755 ,
+    "artFormat":"Window Painting",
+  },
+  {
+    "firstName":"Misha" ,
+    "lastName": "Tyutyunik",
+    "address": "Castro's, 511 Myrtle Ave, Brooklyn NY",
+    "longitude":-73.964457,
+    "latitude":40.693842 ,
+    "artFormat": "Window Painting",
+  },
+  {
+    "firstName":"Charles" ,
+    "lastName": "Esperanza",
+    "address": "New Grace Chinese Restaurant, 545 Myrtle Ave, Brooklyn NY" ,
+    "longitude":-73.962635,
+    "latitude": 40.693934,
+    "artFormat":"Window Painting",
+  },
+  {
+    "firstName": "Victor" ,
+    "lastName": "St. Hilaire" ,
+    "address":"Taqueria Tepango, 568 Myrtle Ave, Brooklyn NY" ,
+    "longitude":-73.961788,
+    "latitude": 40.693761,
+    "artFormat":"Window Painting",
+  },
+  {
+    "firstName": "Laura",
+    "lastName":"Pawson" ,
+    "address": "The Owl and the Pussycat Salon, 154 Vanderbilt Ave, Brooklyn NY",
+    "longitude":-73.969964,
+    "latitude": 40.692848,
+    "artFormat":"Window Painting",
+  },
+  {
+    "firstName":"Demetrius" ,
+    "lastName":"Felder" ,
+    "address": "505 Myrtle Ave, Brooklyn NY",
+    "longitude":-73.964691,
+    "latitude":40.693766 ,
+    "artFormat":"Window Painting",
+  }
+]
