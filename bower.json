@@ -1,0 +1,8 @@
+{
+  "name": "matthewdhuff",
+    "dependencies": {
+      "foundation": "~5.5.3",
+      "jquery": "~3.0.0",
+      "jquery-ui": "jqueryui#~1.11.4"
+    }
+}
