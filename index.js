@@ -6,8 +6,18 @@ $(document).ready(function(){
     $('#purpose').fadeOut(function(){
       $('#gratitude').fadeIn();
     });
-  })
+  });
 
+  $('#purpose-button').click(function(e){
 
+  });
+
+  $('#projects-button').click(function(e){
+
+  });
+
+  $('#blogs-button').click(function(e){
+
+  });
 
 });
