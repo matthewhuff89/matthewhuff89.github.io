@@ -1,8 +1,37 @@
+* {
+  color: white;
+  font-family: 'Oswald', serif, sans-serif !important;
+}
+
 body {
   background-color: black;
-  color: white;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 100px;
+}
+
+a {
+  background-color: #009933 !important;
+  border-radius: 10px !important;
 }
 
 h1 {
   color: white;
+}
+
+.navigation {
+}
+
+.center-stage {
+
 }
