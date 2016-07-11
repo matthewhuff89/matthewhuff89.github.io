@@ -1,6 +1,14 @@
 * {
-  color: white;
   font-family: 'Oswald', serif, sans-serif !important;
+}
+
+.footer {
+  margin-top: 20px;
+  color: gray;
+}
+
+p {
+  color: white;
 }
 
 body {
@@ -12,6 +20,7 @@ h1 {
   margin-bottom: 20px;
 }
 
+
 ul {
 }
 
@@ -19,7 +28,12 @@ li {
   width: 100px;
 }
 
-a {
+.blog-link {
+  color: #009933;
+  text-decoration: underline;
+}
+
+.button {
   background-color: #009933 !important;
   border-radius: 10px !important;
 }
@@ -41,7 +55,6 @@ h2 {
 }
 
 #purpose {
-
 }
 
 #blogs {
